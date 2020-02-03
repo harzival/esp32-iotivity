@@ -4,7 +4,7 @@
 #
 
 export PROJECT_PATH := $(PWD)
-export IDF_PATH ?= $(PWD)/esp-idf
+#export IDF_PATH ?= $(PWD)/esp-idf
 
 ifeq ($(CLIENT), 1)
 	PROJECT_NAME := iotivity_client
